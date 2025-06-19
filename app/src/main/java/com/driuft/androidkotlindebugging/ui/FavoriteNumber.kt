@@ -13,7 +13,9 @@ class FavoriteNumber : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_favorite_number)
 
-        val number: Int = null!!
+        val number: Int? = null
+        // not sure what I did, but I suppose null was declared wrong. I just clicked the squiggly lines
+        // a lot of times they can help you before you help yourself only if you understand
         favoriteNumber.text = "$number"
     }
 }

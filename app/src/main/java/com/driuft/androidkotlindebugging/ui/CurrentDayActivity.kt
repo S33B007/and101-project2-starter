@@ -16,7 +16,8 @@ class CurrentDayActivity : AppCompatActivity() {
         setContentView(R.layout.activity_current_day)
 
         currentDayText = findViewById(R.id.current_day_text)
-        currentDayText.text = getString(getDayOfMonth())
+        currentDayText.text = getDayOfMonth().toString()
+        // the issue is, its trying to typecast the day of the month which is an int to string
     }
 
     private fun getDayOfMonth(): Int {
