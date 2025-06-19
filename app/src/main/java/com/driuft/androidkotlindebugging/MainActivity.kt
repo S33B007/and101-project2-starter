@@ -30,9 +30,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun launchHelloWorldActivity() {
-        val i = Intent(404 as Context, HelloWorldActivity::class.java)
+        val i = Intent(this, HelloWorldActivity::class.java)
         startActivity(i)
     }
+    // What we did is add the Package Context this, just by looking at what made the other ones work!
 
     private fun launchNumSumActivity() {
         val i = Intent(this, NumSumActivity::class.java)
