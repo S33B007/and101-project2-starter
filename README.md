@@ -37,7 +37,8 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://imgur.com/a/OLLzNnd' title='Video Demo' width='' alt='Video Demo' />
+<img src='![Project 2 finish](https://github.com/user-attachments/assets/a7a3e3cc-f3b8-4d0c-8b34-4605e5a1cba3)
+' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **Screen to GIF**
 
