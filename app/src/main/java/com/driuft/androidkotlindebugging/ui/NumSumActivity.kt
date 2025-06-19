@@ -14,8 +14,9 @@ class NumSumActivity : AppCompatActivity() {
         setContentView(R.layout.activity_num_sum)
 
         val a = 2
-        val b = "2" as Int
+        val b = 2
 
+        // changes b to an int
         resultText.text = "${sumOfTwo(a, b)}"
     }
 
